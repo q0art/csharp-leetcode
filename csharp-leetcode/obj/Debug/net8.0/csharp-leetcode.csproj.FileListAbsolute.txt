@@ -1,0 +1,14 @@
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\bin\Debug\net8.0\csharp-leetcode.exe
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\bin\Debug\net8.0\csharp-leetcode.deps.json
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\bin\Debug\net8.0\csharp-leetcode.runtimeconfig.json
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\bin\Debug\net8.0\csharp-leetcode.dll
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\bin\Debug\net8.0\csharp-leetcode.pdb
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.AssemblyInfoInputs.cache
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.AssemblyInfo.cs
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.csproj.CoreCompileInputs.cache
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.dll
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\refint\csharp-leetcode.dll
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.pdb
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.genruntimeconfig.cache
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\ref\csharp-leetcode.dll
