@@ -12,3 +12,4 @@ C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\refint
 C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.pdb
 C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.genruntimeconfig.cache
 C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\ref\csharp-leetcode.dll
+C:\Users\qtqta\_projects\csharp-leetcode\csharp-leetcode\obj\Debug\net8.0\csharp-leetcode.sourcelink.json
