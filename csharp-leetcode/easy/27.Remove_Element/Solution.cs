@@ -1,13 +1,13 @@
-namespace csharp_leetcode.easy._26.Remove_Duplicates_from_Sorted_Array;
+namespace csharp_leetcode.easy._27.Remove_Element;
 
 public class Solution {
-    public int RemoveDuplicates(int[] nums)
+    public int RemoveElement(int[] nums, int val)
     {
-        int count = 1;
+        int count = 0;
 
         for (int i = 0; i < nums.Length; i++)
         {
-            if (nums[count - 1] != nums[i])
+            if (nums[i] != val)
             {
                 nums[count++] = nums[i];
             }
