@@ -1,6 +1,7 @@
 namespace csharp_leetcode.easy._14.Longest_Common_Prefix;
 
-public class Solution {
+public class Solution 
+{
     public string LongestCommonPrefix(string[] s)
     {
         Array.Sort(s);

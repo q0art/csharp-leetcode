@@ -1,6 +1,7 @@
 namespace csharp_leetcode.easy._20.Valid_Parentheses;
 
-public class Solution {
+public class Solution 
+{
     public bool IsValid(string s)
     {
         var stack = new Stack<char>();

@@ -1,6 +1,7 @@
 namespace csharp_leetcode.easy._70.Climbing_Stairs;
 
-public class Solution {
+public class Solution 
+{
     public int ClimbStairs(int n)
     {
         int left = 0, rigth = 1, res = 0;

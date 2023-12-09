@@ -1,6 +1,7 @@
 namespace csharp_leetcode.easy._1.Two_Sum;
 
-public class Solution {
+public class Solution 
+{
     public int[] TwoSum(int[] nums, int target)
     {
         var dict = new Dictionary<int, int>();

@@ -1,6 +1,7 @@
 namespace csharp_leetcode.easy._13.Roman_to_Integer;
 
-public class Solution {
+public class Solution 
+{
     public int RomanToInt(string s)
     {
         int result = 0;

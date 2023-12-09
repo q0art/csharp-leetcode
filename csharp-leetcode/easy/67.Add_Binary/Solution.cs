@@ -2,7 +2,8 @@ using System.Text;
 
 namespace csharp_leetcode.easy._67.Add_Binary;
 
-public class Solution {
+public class Solution 
+{
     public string AddBinary(string a, string b)
     {
         int i = a.Length - 1, j = b.Length - 1, k = 0;

@@ -12,7 +12,8 @@ public class ListNode
     }
 }
 
-public class Solution {
+public class Solution 
+{
     public ListNode MergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null)
         {

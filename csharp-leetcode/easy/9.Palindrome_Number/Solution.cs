@@ -1,6 +1,7 @@
 namespace csharp_leetcode.easy._9.Palindrome_Number;
 
-public class Solution {
+public class Solution 
+{
     public bool IsPalindrome(int x)
     {
         var s = x.ToString();

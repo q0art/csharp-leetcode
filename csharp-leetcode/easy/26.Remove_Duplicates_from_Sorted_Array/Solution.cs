@@ -1,6 +1,7 @@
 namespace csharp_leetcode.easy._26.Remove_Duplicates_from_Sorted_Array;
 
-public class Solution {
+public class Solution 
+{
     public int RemoveDuplicates(int[] nums)
     {
         int count = 1;
