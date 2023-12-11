@@ -1,5 +1,4 @@
 namespace csharp_leetcode.easy._1.Two_Sum;
-
 public class Solution 
 {
     public int[] TwoSum(int[] nums, int target)

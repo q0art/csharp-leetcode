@@ -1,18 +1,6 @@
-namespace csharp_leetcode.easy._110.Balanced_Binary_Tree;
+using csharp_leetcode.helpers;
 
-public class TreeNode 
-{
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-    
-    public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null) 
-    {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
+namespace csharp_leetcode.easy._110.Balanced_Binary_Tree;
 
 public class Solution
 {
