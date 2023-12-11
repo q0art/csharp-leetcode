@@ -14,10 +14,10 @@ public class Solution
             {
                 return new int[] { dict[diff], i };
             }
-            
             dict[nums[i]] = i;
         }
 
         return new int[0];
     }
+    
 }
