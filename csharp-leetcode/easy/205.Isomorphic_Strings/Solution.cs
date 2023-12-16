@@ -13,11 +13,17 @@ public class Solution
         {
             if (dict.ContainsKey(s[i]))
             {
-                if (dict[s[i]] != t[i]) return false;
+                if (dict[s[i]] != t[i])
+                {
+                    return false;
+                }
             }
             else
             {
-                if (hashSet.Contains(t[i])) return false;
+                if (hashSet.Contains(t[i]))
+                {
+                    return false;
+                }
 
                 dict[s[i]] = t[i];
                 hashSet.Add(t[i]);
