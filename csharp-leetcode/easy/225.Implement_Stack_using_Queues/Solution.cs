@@ -14,23 +14,12 @@ public class MyStack
         _queue.Enqueue(x);
 
         for (int i = 0; i < _queue.Count - 1; i++)
-        {
             _queue.Enqueue(_queue.Dequeue());
-        }
     }
 
-    public int Pop()
-    {
-        return _queue.Dequeue();
-    }
-
-    public int Top()
-    {
-        return _queue.Peek();
-    }
-
-    public bool Empty()
-    {
-        return _queue.Count == 0;
-    }
+    public int Pop() => _queue.Dequeue();
+    
+    public int Top() => _queue.Peek();
+    
+    public bool Empty() => _queue.Count == 0;
 }

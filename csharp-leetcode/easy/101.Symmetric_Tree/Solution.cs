@@ -7,9 +7,7 @@ public class Solution
     public bool IsSymmetric(TreeNode root) 
     {
         if (root == null)
-        {
             return true;
-        }
 
         return IsSymmetricHelper(root.left, root.right);
     }
@@ -17,19 +15,13 @@ public class Solution
     private bool IsSymmetricHelper(TreeNode p, TreeNode q)
     {
         if (p == null && q == null)
-        {
             return true;
-        }
 
         if (p == null || q == null)
-        {
             return false;
-        }
 
         if (p.val != q.val)
-        {
             return false;
-        }
 
         return IsSymmetricHelper(p.left, q.right) && IsSymmetricHelper(p.right, q.left);
     }

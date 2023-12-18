@@ -7,6 +7,7 @@ public class Solution
     public IList<int> InorderTraversal(TreeNode root)
     {
         var list = new List<int>();
+        
         InorderTraversalHelper(root, list);
 
         return list;

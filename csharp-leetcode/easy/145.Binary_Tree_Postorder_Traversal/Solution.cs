@@ -16,9 +16,7 @@ public class Solution
     private void PostorderTraversalHelper(TreeNode node, List<int> list)
     {
         if (node == null)
-        {
             return;
-        }
         
         PostorderTraversalHelper(node.left, list);
         PostorderTraversalHelper(node.right, list);

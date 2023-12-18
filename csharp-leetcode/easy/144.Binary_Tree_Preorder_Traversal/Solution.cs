@@ -16,9 +16,7 @@ public class Solution
     private void PreorderTraversalHelper(TreeNode node, List<int> list)
     {
         if (node == null)
-        {
             return;
-        }
         
         list.Add(node.val);
         

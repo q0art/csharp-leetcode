@@ -5,9 +5,7 @@ public class Solution
     public int MaxProfit(int[] prices) 
     {
         if (prices == null || prices.Length <= 1)
-        {
             return 0;
-        }
 
         int maxProfit = 0, minPrice = prices[0];
 

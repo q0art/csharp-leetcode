@@ -7,9 +7,7 @@ public class Solution
     public TreeNode SortedArrayToBST(int[] nums) 
     {
         if (nums == null || nums.Length == 0)
-        {
             return null;
-        }
 
         return SortedArrayToBSTHelper(nums, 0, nums.Length - 1);
     }
@@ -17,9 +15,7 @@ public class Solution
     private TreeNode SortedArrayToBSTHelper(int[] nums, int left, int right)
     {
         if (left > right)
-        {
             return null;
-        }
 
         int mid = left + (right - left) / 2;
         var node = new TreeNode(nums[mid]);

@@ -11,9 +11,7 @@ public class Solution
         while (head != null)
         {
             if (head.next != null && hashSet.Contains(head.next))
-            {
                 return true;
-            }
 
             hashSet.Add(head);
             head = head.next;

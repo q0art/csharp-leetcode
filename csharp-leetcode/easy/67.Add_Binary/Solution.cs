@@ -14,14 +14,10 @@ public class Solution
             int sum = k;
 
             if (i >= 0)
-            {
                 sum += a[i--] - '0';
-            }
 
             if (j >= 0)
-            {
                 sum += b[j--] - '0';
-            }
 
             sb.Insert(0, sum % 2);
             k = sum / 2;

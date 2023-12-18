@@ -9,9 +9,7 @@ public class Solution
         for (int i = 0; i < nums.Length; i++)
         {
             if (dict.ContainsKey(nums[i]) && (i - dict[nums[i]]) <= k)
-            {
                 return true;
-            }
 
             dict[nums[i]] = i;
         }

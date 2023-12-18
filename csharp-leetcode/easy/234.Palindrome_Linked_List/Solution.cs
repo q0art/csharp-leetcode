@@ -15,9 +15,7 @@ public class Solution
     private bool IsPalindromeHelper(ListNode node)
     {
         if (node == null)
-        {
             return true;
-        }
 
         bool result = IsPalindromeHelper(node.next) && (_listNode.val == node.val);
         _listNode = _listNode.next;

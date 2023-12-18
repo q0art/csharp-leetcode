@@ -16,18 +16,12 @@ public class Solution
     private void BinaryTreePathsHelper(TreeNode node, string s, List<string> list)
     {
         if (node.left == null && node.right == null)
-        {
             list.Add(s + node.val);
-        }
 
         if (node.left != null)
-        {
             BinaryTreePathsHelper(node.left, s + node.val + "->", list);
-        }
 
         if (node.right != null)
-        {
             BinaryTreePathsHelper(node.right, s + node.val + "->", list);
-        }
     }
 }

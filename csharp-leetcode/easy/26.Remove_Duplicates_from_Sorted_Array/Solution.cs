@@ -9,9 +9,7 @@ public class Solution
         for (int i = 0; i < nums.Length; i++)
         {
             if (nums[count - 1] != nums[i])
-            {
                 nums[count++] = nums[i];
-            }
         }
 
         return count;

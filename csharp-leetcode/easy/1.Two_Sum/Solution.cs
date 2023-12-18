@@ -10,13 +10,11 @@ public class Solution
             int diff = target - nums[i];
 
             if (dict.ContainsKey(diff))
-            {
                 return new int[] { dict[diff], i };
-            }
+            
             dict[nums[i]] = i;
         }
 
         return new int[0];
     }
-    
 }

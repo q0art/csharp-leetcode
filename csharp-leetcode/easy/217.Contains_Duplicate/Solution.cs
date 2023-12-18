@@ -9,9 +9,7 @@ public class Solution
         for (int i = 0; i < nums.Length; i++)
         {
             if (hashSet.Contains(nums[i]))
-            {
                 return true;
-            }
 
             hashSet.Add(nums[i]);
         }

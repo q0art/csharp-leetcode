@@ -5,9 +5,7 @@ public class Solution
     public uint reverseBits(uint n)
     {
         if (n == 0)
-        {
             return 0;
-        }
 
         uint result = 0;
 

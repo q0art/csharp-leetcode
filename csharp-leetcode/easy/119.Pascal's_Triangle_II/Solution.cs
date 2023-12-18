@@ -13,13 +13,9 @@ public class Solution
             for (int j = 0; j <= i; j++)
             {
                 if (j == 0 || j == i)
-                {
                     listRow.Add(1);
-                }
                 else
-                {
                     listRow.Add(list[j - 1] + list[j]);
-                }
             }
 
             list = listRow;

@@ -19,13 +19,9 @@ public class Solution
         for (int i = 0; i < s.Length; i++)
         {
             if (i < s.Length - 1 && dict[s[i]] < dict[s[i + 1]])
-            {
                 result -= dict[s[i]];
-            }
             else
-            {
                 result += dict[s[i]];
-            }
         }
 
         return result;
