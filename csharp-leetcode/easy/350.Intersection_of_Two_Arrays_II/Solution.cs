@@ -8,13 +8,11 @@ public class Solution
         var list = new List<int>(nums2);
 
         for (int i = 0; i < nums1.Length; i++)
-        {
             if (list.Contains(nums1[i]))
             {
                 result.Add(nums1[i]);
                 list.Remove(nums1[i]);
             }
-        }
 
         return result.ToArray();
     }

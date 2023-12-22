@@ -20,10 +20,8 @@ public class Solution
         }
 
         for (int i = 0; i < list.Count; i++)
-        {
             if (list[i] != list[list.Count - i - 1])
                 return false;
-        }
 
         return true;
     }

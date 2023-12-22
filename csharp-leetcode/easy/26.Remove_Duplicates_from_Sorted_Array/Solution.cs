@@ -7,10 +7,8 @@ public class Solution
         int count = 1;
 
         for (int i = 0; i < nums.Length; i++)
-        {
             if (nums[count - 1] != nums[i])
                 nums[count++] = nums[i];
-        }
 
         return count;
     }

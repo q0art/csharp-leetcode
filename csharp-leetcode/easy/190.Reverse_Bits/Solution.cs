@@ -14,9 +14,7 @@ public class Solution
             result <<= 1;
 
             if ((n & 1) == 1)
-            {
                 result++;
-            }
 
             n >>= 1;
         }
