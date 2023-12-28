@@ -1,5 +1,3 @@
-using System.Globalization;
-
 namespace csharp_leetcode.easy._506.Relative_Ranks;
 
 public class Solution
