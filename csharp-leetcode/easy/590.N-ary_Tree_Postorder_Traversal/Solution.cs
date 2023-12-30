@@ -1,21 +1,21 @@
 using csharp_leetcode.helpers;
 
-namespace csharp_leetcode.easy._589.N_ary_Tree_Preorder_Traversal;
+namespace csharp_leetcode.easy._590.N_ary_Tree_Postorder_Traversal;
 
 public class Solution
 {
     private List<int> _list = new();
     
-    public IList<int> Preorder(Node root)
+    public IList<int> Postorder(Node root)
     {
         if (root == null)
             return _list;
+
+        foreach (Node child in root.children)
+            Postorder(child);
         
         _list.Add(root.val);
 
-        foreach (Node child in root.children)
-            Preorder(child);
-
         return _list;
-    } 
+    }
 }

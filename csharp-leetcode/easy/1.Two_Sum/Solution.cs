@@ -8,10 +8,8 @@ public class Solution
 
         for (int i = 0; i < nums.Length; i++)
         {
-            int diff = target - nums[i];
-
-            if (dict.ContainsKey(diff))
-                return new int[] { dict[diff], i };
+            if (dict.ContainsKey(target - nums[i]))
+                return new int[] { dict[target - nums[i]], i };
             
             dict[nums[i]] = i;
         }
