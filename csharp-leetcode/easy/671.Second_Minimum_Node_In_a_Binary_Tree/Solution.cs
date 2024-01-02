@@ -1,4 +1,3 @@
-using System.ComponentModel.Design.Serialization;
 using csharp_leetcode.helpers;
 
 namespace csharp_leetcode.easy._671.Second_Minimum_Node_In_a_Binary_Tree;
