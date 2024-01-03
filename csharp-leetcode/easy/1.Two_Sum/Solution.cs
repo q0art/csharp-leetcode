@@ -4,8 +4,10 @@ public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         var dict = new Dictionary<int, int>();
 
-        var result = nums
-            .Select((v, i) => new { Value = v, Index = i })
+        var selected = nums
+            .Select((v, i) => new { Value = v, Index = i });
+        
+        var result = selected
             .FirstOrDefault(item => {
                 if(dict.ContainsKey(target - item.Value))
                     return true;
