@@ -2,7 +2,7 @@ using System.Text;
 
 namespace csharp_leetcode.easy._67.Add_Binary;
 
-public class Solution 
+public class Solution
 {
     public string AddBinary(string a, string b)
     {
@@ -11,7 +11,7 @@ public class Solution
 
         while (i >= 0 || j >= 0 || k > 0)
         {
-            int sum = k;
+            var sum = k;
 
             if (i >= 0)
                 sum += a[i--] - '0';

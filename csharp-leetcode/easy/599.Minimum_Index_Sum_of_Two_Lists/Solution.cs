@@ -6,24 +6,27 @@ public class Solution
     {
         var list = new List<string>();
         var dict = new Dictionary<string, int>();
-        int minIndex = int.MaxValue;
+        var minIndex = int.MaxValue;
 
-        for (int i = 0; i < list1.Length; i++)
+        for (var i = 0; i < list1.Length; i++)
             dict[list1[i]] = i;
-        
-        for (int i = 0; i < list2.Length; i++)
-            if (dict.TryGetValue(list2[i], out int index))
+
+        for (var i = 0; i < list2.Length; i++)
+            if (dict.TryGetValue(list2[i], out var index))
             {
                 index += i;
 
                 if (index < minIndex)
                 {
                     minIndex = index;
-                    
+
                     list.Clear();
                     list.Add(list2[i]);
-                } else if (index == minIndex)
+                }
+                else if (index == minIndex)
+                {
                     list.Add(list2[i]);
+                }
             }
 
         return list.ToArray();

@@ -4,8 +4,8 @@ namespace csharp_leetcode.easy._653.Two_Sum_IV___Input_is_a_BST;
 
 public class Solution
 {
-    private HashSet<int> _hashSet = new();
-    
+    private readonly HashSet<int> _hashSet = new();
+
     public bool FindTarget(TreeNode root, int k)
     {
         if (root == null)

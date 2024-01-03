@@ -6,12 +6,12 @@ public class Solution
     {
         double sum = 0;
 
-        for (int i = 0; i < k; i++)
+        for (var i = 0; i < k; i++)
             sum += nums[i];
 
-        double result = sum / k;
+        var result = sum / k;
 
-        for (int i = k; i < nums.Length; i++)
+        for (var i = k; i < nums.Length; i++)
         {
             sum += nums[i] - nums[i - k];
             result = Math.Max(result, sum / k);

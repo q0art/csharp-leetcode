@@ -9,8 +9,8 @@ public class Solution
         if (root == null)
             return false;
 
-        return IsSubtreeHelper(root, subRoot) 
-               || (IsSubtree(root.left, subRoot) || IsSubtree(root.right, subRoot));
+        return IsSubtreeHelper(root, subRoot)
+               || IsSubtree(root.left, subRoot) || IsSubtree(root.right, subRoot);
     }
 
     private bool IsSubtreeHelper(TreeNode p, TreeNode q)
@@ -18,8 +18,8 @@ public class Solution
         if (p == null || q == null)
             return p == q;
 
-        return p.val == q.val 
-               && IsSubtreeHelper(p.left, q.left) 
+        return p.val == q.val
+               && IsSubtreeHelper(p.left, q.left)
                && IsSubtreeHelper(p.right, q.right);
     }
 }

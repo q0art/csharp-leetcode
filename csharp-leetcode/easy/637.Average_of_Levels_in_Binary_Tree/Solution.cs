@@ -8,26 +8,26 @@ public class Solution
     {
         var list = new List<double>();
         var queue = new Queue<TreeNode>();
-        
+
         queue.Enqueue(root);
 
         while (queue.Count > 0)
         {
             long count = 0;
-            int n = queue.Count;
+            var n = queue.Count;
 
-            for (int i = 0; i < n; i++)
+            for (var i = 0; i < n; i++)
             {
-                TreeNode node = queue.Dequeue();
+                var node = queue.Dequeue();
                 count += node.val;
-                
+
                 if (node.left != null)
                     queue.Enqueue(node.left);
-                
+
                 if (node.right != null)
                     queue.Enqueue(node.right);
             }
-            
+
             list.Add((double)count / n);
         }
 

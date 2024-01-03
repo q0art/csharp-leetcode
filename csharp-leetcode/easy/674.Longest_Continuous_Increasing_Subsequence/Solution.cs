@@ -4,7 +4,7 @@ public class Solution
 {
     public int FindLengthOfLCIS(int[] nums)
     {
-        int result = 0;
+        var result = 0;
 
         for (int i = 0, j = 0; j < nums.Length; j++)
         {

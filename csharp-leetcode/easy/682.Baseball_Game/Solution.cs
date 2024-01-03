@@ -6,7 +6,7 @@ public class Solution
     {
         var list = new List<int>();
 
-        foreach (string operation in operations)
+        foreach (var operation in operations)
             if (operation == "+")
                 list.Add(list[^1] + list[^2]);
             else if (operation == "D")

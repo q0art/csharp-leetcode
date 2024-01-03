@@ -8,10 +8,10 @@ public class Solution
     {
         if (root == null)
             return "";
-        
-        string left = Tree2str(root.left), 
-            right = Tree2str(root.right),
-            result = root.val.ToString();
+
+        string left = Tree2str(root.left),
+               right = Tree2str(root.right),
+               result = root.val.ToString();
 
         return left == "" && right == ""
             ? result

@@ -5,8 +5,8 @@ public class Solution
     public bool JudgeCircle(string moves)
     {
         int x = 0, y = 0;
-        
-        foreach (char move in moves)
+
+        foreach (var move in moves)
             if (move == 'U')
                 y++;
             else if (move == 'D')

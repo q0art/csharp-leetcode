@@ -23,8 +23,8 @@ public class Solution
         int firstMinValue = FindSecondMinimumValueHelper(node.left, n),
             secondMinValue = FindSecondMinimumValueHelper(node.right, n);
 
-        return (firstMinValue == -1 || secondMinValue == -1) 
-            ? Math.Max(firstMinValue, secondMinValue) 
+        return firstMinValue == -1 || secondMinValue == -1
+            ? Math.Max(firstMinValue, secondMinValue)
             : Math.Min(firstMinValue, secondMinValue);
     }
 }
