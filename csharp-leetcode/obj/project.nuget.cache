@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\qtqta\\_projects\\csharp-leetcode\\csharp-leetcode\\csharp-leetcode.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\qtqta\\_projects\\csharp-leetcode\\csharp-leetcode\\obj\\project.nuget.cache : Found invalid data while decoding."
+    }
+  ]
 }
