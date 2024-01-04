@@ -1,19 +1,10 @@
 namespace csharp_leetcode.easy._14.Longest_Common_Prefix;
 
-public class Solution
-{
-    public string LongestCommonPrefix(string[] s)
-    {
-        var prefix = "";
+public class Solution {
+    public string LongestCommonPrefix(string[] s) {
+        var result = s.First()
+            .TakeWhile((v, i) => s.All(item => item.Length > i && item[i] == v));
 
-        Array.Sort(s);
-
-        for (var i = 0; i < s[0].Length; i++)
-            if (s[0][i] != s[s.Length - 1][i])
-                return prefix;
-            else
-                prefix += s[0][i];
-
-        return prefix;
+        return new string(result.ToArray());
     }
 }
